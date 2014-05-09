@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Todo</title>
+
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body id="body">
+    
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+    
+        <button id="clearButton" data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'cmdDelete',label:'Clear',icon:'delete',
+                section:'global',tooltip:'Clear list'}"></button>
+        <button id="clearTasksButton" data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'cmdDelete',label:'Reset',icon:'delete',
+                section:'global',tooltip:'Reset completed task counter'}"></button>
+             
+    </div>
+    <div id="bar">
+
+        <input type="text" id="item"/>
+        <button id="addButton">add</button>
+        <span id="tasks"></span>
+        
+     </div>
+  
+<div id="output"></div>
+    
+    
+</body>
+</html>
