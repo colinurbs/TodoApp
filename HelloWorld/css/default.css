@@ -1,0 +1,55 @@
+﻿body {
+   
+}
+#bar {
+    padding:2em;
+    width:100vw;
+    height:6vh;
+    background:#808080;
+    border-bottom:thin solid black;
+  
+}
+
+#output {
+height:92vh;
+
+overflow-y:scroll;
+
+}
+
+
+.doneButton {
+float:left;
+   margin-right:1em;
+   width:1em;
+   height:1em;
+ position:relative;
+ top:6px;
+   border:1px solid #fff;
+  
+}
+
+#item {
+width:50vw;
+margin-top:7px;
+margin-left:10px;
+
+}
+.item {
+
+padding:.5em;
+margin:.5em;
+font-size:26px;
+
+}
+
+#tasks {
+position:relative;
+left:10px;
+top:2px;
+   
+
+}
+
+  
+
